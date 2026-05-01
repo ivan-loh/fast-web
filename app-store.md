@@ -1,11 +1,11 @@
 # fast App Store submission draft
 
-Assumed public site path after deployment:
+Public site paths:
 
-- Marketing URL: `https://eriad.com/fast/`
-- Support URL: `https://eriad.com/fast/support.html`
-- Privacy Policy URL: `https://eriad.com/fast/privacy.html`
-- User Privacy Choices URL: `https://eriad.com/fast/privacy-choices.html`
+- Marketing URL: `https://fast.eriad.com/`
+- Support URL: `https://fast.eriad.com/support.html`
+- Privacy Policy URL: `https://fast.eriad.com/privacy.html`
+- User Privacy Choices URL: `https://fast.eriad.com/privacy-choices.html`
 
 ## Name
 
@@ -48,11 +48,11 @@ Health & Fitness
 
 ## Support URL
 
-`https://eriad.com/fast/support.html`
+`https://fast.eriad.com/support.html`
 
 ## Privacy Policy URL
 
-`https://eriad.com/fast/privacy.html`
+`https://fast.eriad.com/privacy.html`
 
 ## Review notes
 
