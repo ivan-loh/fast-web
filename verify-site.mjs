@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 const root = new URL(".", import.meta.url).pathname;
 const supportEmail = "fast-support@eriad.com";
+const appStoreUrl = "https://apps.apple.com/us/app/f-for-fast/id6765584146";
 
 const requiredFiles = [
   "index.html",
@@ -82,5 +83,8 @@ for (const phrase of [
 ]) {
   assert(metadata.includes(phrase), `app-store.md missing section: ${phrase}`);
 }
+
+const home = read("index.html");
+assert(home.includes(appStoreUrl), "index.html missing App Store URL");
 
 console.log("fast-web static site checks passed");
